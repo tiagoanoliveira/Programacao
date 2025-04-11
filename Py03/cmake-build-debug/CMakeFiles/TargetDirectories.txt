@@ -1,0 +1,8 @@
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/cross.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/change.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/smallest.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/eval-complex.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/eval-fraction.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/angle.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

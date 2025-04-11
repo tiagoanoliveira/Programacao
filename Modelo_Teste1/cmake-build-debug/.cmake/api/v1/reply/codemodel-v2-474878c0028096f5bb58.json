@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mt1_model",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "common-letters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-common-letters-Debug-e39f83a080204fd818df.json",
+					"name" : "common-letters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "expand::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-expand-Debug-91319b94225cb371cf19.json",
+					"name" : "expand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "largest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-largest-Debug-1c855e57e5b93ab3d713.json",
+					"name" : "largest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate-left::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate-left-Debug-cc75133137dcfdd15594.json",
+					"name" : "rotate-left",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time-add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time-add-Debug-6335583559db9467c3b5.json",
+					"name" : "time-add",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug",
+		"source" : "/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

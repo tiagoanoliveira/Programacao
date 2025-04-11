@@ -1,0 +1,7 @@
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/time_of_day.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/interval.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/fraction.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/complex.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/mandelbrot.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

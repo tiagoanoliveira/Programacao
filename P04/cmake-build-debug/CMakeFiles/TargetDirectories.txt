@@ -1,0 +1,7 @@
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/max.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/marge-arrays.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/merge-dynamic-arrays.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/hstr-to-integer.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/intervals.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

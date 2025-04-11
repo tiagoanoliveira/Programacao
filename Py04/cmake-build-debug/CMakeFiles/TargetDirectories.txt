@@ -1,0 +1,9 @@
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/reverse.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/scrabble.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/ssum.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/prefix.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/nrl.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/trim.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/rle-encoding.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

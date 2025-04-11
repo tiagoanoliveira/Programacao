@@ -1,0 +1,7 @@
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/time-add.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/rotate-left.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/common-letters.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/largest.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/expand.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/Modelo_Teste1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
