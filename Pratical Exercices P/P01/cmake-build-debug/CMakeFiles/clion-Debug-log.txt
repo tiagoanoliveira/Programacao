@@ -1,4 +1,0 @@
-/snap/clion/322/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/322/bin/ninja/linux/x64/ninja -G Ninja -S /media/tiago-oliveira/Files/FEUP/Prog/P01 -B /media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug
