@@ -7,4 +7,5 @@ Neste repositório podes encontrar:
 
 Bom trabalho!
 
+<p align="center">
 <img src="/resources/C++.jpeg" width="60%">
