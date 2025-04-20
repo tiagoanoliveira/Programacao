@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  CMakeFiles/hello.dir/hello.cpp.o -o hello  -lm 
