@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(exercises)
+project(P06)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined")
@@ -18,3 +18,4 @@ link_libraries(m)
 
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
+add_executable(pangram pangram.cpp)
