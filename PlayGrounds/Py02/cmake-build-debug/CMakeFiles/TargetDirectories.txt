@@ -1,8 +1,0 @@
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/swapper.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/area.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/nm.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/sundays.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/pell.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/triangles.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
