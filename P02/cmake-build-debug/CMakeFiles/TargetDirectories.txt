@@ -1,7 +1,0 @@
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/adigits.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/advance.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/equation.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/bc.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/bell.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/tiago-oliveira/Files/FEUP/Prog/P02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
