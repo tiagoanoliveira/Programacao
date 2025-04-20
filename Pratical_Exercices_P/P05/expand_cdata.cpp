@@ -3,28 +3,24 @@
 //
 #include <iostream>
 #include "cdata.h"
+
 using namespace std;
+
 int* expand_cdata(const cdata a[], int n) {
-    // iterar sobre o a e somar os values
-    int nv=0;
+    int len=0;
     for (int i=0; i<n; i++) {
-        nv+=a[i].count;
+        len+=a[i].count;
     }
-    int* res = new int[nv];
-    int index=0;
-    int j=0;
-    for (int k=0; k<n; k++) {
-        int times=a[j].count;
-        for (int l=0; l<times; l++) {
-            res[index]=a[j].value;
-            index++;
+    int* r = new int[len];
+    int pos=0;
+    for (int j=0; j<n; j++) {
+        for (int k=0; k<a[j].count; k++) {
+            r[pos]=a[j].value;
+            pos++;
         }
-        j++;
     }
-    return res;
+    return r;
 }
-
-
 
 
 int main () {

@@ -19,3 +19,5 @@ link_libraries(m)
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
 add_executable(expand expand_cdata.cpp)
+add_executable(median median.cpp)
+add_executable(duplicate duplicate.cpp)
