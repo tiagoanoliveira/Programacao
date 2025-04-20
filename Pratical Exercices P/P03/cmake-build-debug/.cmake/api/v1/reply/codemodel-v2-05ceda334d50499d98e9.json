@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "P03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "complex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complex-Debug-6297dd4809503039805e.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fraction-Debug-b5f4e032994b48f1bd12.json",
+					"name" : "fraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interval::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interval-Debug-2added1c53fdd4ef4377.json",
+					"name" : "interval",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mandelbrot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mandelbrot-Debug-676f811f202a2c3ebb5b.json",
+					"name" : "mandelbrot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time_of_day::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time_of_day-Debug-72f780f25dac484e4d37.json",
+					"name" : "time_of_day",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/tiago-oliveira/Files/FEUP/Prog/P03/cmake-build-debug",
+		"source" : "/media/tiago-oliveira/Files/FEUP/Prog/P03"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

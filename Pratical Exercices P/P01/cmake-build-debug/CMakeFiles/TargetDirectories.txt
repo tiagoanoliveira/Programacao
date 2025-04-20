@@ -1,0 +1,7 @@
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/fizz-buzz.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/char-types.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/pi.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/primes.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/pernicious.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

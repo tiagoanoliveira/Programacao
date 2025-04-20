@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Py04",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nrl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nrl-Debug-77314f00d614edacbfc0.json",
+					"name" : "nrl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prefix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prefix-Debug-297a6aeff16e7c4a8bf3.json",
+					"name" : "prefix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reverse-Debug-dcf743967b284db68fc8.json",
+					"name" : "reverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rle-encoding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rle-encoding-Debug-d6bf12b8457df2b00d8c.json",
+					"name" : "rle-encoding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scrabble::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scrabble-Debug-8179259d4fa8e6d35e36.json",
+					"name" : "scrabble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ssum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ssum-Debug-6d78d27cb967ad7b7ee1.json",
+					"name" : "ssum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trim-Debug-293097f25f0cc74195ce.json",
+					"name" : "trim",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/tiago-oliveira/Files/FEUP/Prog/Py04/cmake-build-debug",
+		"source" : "/media/tiago-oliveira/Files/FEUP/Prog/Py04"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

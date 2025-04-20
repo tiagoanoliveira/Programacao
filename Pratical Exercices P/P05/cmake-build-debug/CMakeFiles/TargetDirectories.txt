@@ -1,0 +1,3 @@
+/media/tiago-oliveira/Files/FEUP/Prog/P05/cmake-build-debug/CMakeFiles/expand.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tiago-oliveira/Files/FEUP/Prog/P05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
