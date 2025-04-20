@@ -7,4 +7,4 @@ Neste repositório podes encontrar:
 
 Bom trabalho!
 
-![Programação em C++](resources/C++.jpeg)
+<img src="/resources/C++.jpeg" width="60%">
