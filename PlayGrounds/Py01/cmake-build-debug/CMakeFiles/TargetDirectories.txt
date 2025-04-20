@@ -1,9 +1,0 @@
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/hello.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/einstein.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/calculator.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/md.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/reverse.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/arithmetic.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/encryption.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Py01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
