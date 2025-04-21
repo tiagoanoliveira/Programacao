@@ -1,3 +1,7 @@
 .idea/
 .cmake-build-debug/
 .build/
+/cmake-build-debug/
+/Pratical_Exercices_P/P05/cmake-build-debug/
+/Pratical_Exercices_P/P04/cmake-build-debug/
+/Pratical_Exercices_P/P06/cmake-build-debug/
