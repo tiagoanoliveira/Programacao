@@ -1,0 +1,4 @@
+chain
+  scrims/more-scrims/start1.scrim
+  scrims/more-scrims/end2.scrim
+save output/chain2.png
