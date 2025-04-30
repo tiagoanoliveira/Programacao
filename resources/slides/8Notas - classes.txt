@@ -1,0 +1,142 @@
+# class vs struct
+
+# class vs instance
+
+- analogia: class é a planta da casa, instância é a casa construída
+
+# class declaration
+
+- Separar sempre .h e .cpp
+
+# header guards
+
+- #ifndef, o que faz?
+- para que serve as header guards?
+
+# fraction and polynomial
+
+- Vamos usar estas classes como exemplo
+- fraction: n sobre d
+- polynomial: lista de fractions
+
+# public and private
+
+- Para quê?
+ -> Muitos estão numa fase em que estão a aprender a expressar os problemas em código
+ -> Mais para a frente, isso não será tão crítico, e o desafio maior será, como gerir grandes quantidades de código
+ -> É para isso que ser OO, é uma forma de gerir o código e só mostrar ao utilizador aquilo que ele precisa
+ -> exemplo vector, podemos fazer push_back() sem nos preocuparmos com alocação de memória
+
+# member fields
+
+- field: variável de uma classe (e.g., Sasha: nível, hp, etc)
+
+# member fields (cont.)
+
+- Regra geral: vocês não querem expôr diretamente estes valores (e.g, vector: não sabem como é que está a guardar os elementos)
+- forma alternativa de representar o coeff, para coeffs mt elevados? (e.g., dois vectores, um com o coeff e outro com o expoente)
+ -> se fields estiverem escondidos, podem alterar o interior da class, e se a interface se manter, quem usa a classe nem repara
+ -> isto multiplicado por dezenas ou centenas de classes que compõem um projeto real e complexo
+
+# Constructors
+
+
+# Constructors (cont.)
+
+- Vantagem das member initalizer lists: quando se executa o código do construtor, os fields já estão inicializados
+
+
+# Constructors (cont.)
+
+- Constructor delegation: padrão muito comum (e recomendado)
+- Temos apenas um  construtor que inicia diretammente as variáveis; todos os outros construtores chamam este ou outros construtores
+- Apenas o construtor base chama o reduce(). Estes construtores não precisam do reduce(), mas se adicionassem um constructor que precisasse, o reduce() seria chamado automaticamente (não seria esquecido)
+- Muitas destas técnicas é para lidar com possíveis erros humanos
+
+
+# Constructors and member functions
+
+- Podem agora construir classes que funcionam como as que têm usado até agora (string, vector)
+- .add(), adiciona ao próprio e modifica, .mul() multiplica ao próprio e modifica
+
+
+# Member functions
+
+- O que querem dizer estes const?
+ -> depois da declaração da função, que chamá-la não vai mudar o objecto
+ -> no parâmetro, que o argumento não será modificado
+
+# const member functions
+
+- o compilador verifica estas condições
+
+
+# Separate declaration and implementation
+
+- Declaration vs implementation
+ -> int foo(int a);
+ -> int foo(int a) { return a + 10;}
+
+
+# “What is this ?”
+
+- this só faz sentido em código dentro de um objecto
+- internamente, se não puserem this, o compilador coloca automaticamente
+
+
+# Class composition
+
+- É uma maneira de dizer que uma classe tem como membros/fields outras classes
+- exemplo típico: carro é composto por um rodas, motor; o motor tem outros componentes
+- Há duas formas principais em OO de construir classes, composição e herança
+ -> composição é de longe a forma mais comum e recomendada
+ -> herança é só para quando faz sentido
+
+
+# Class composition (cont.)
+
+- Temos uma construção mais complexa (e.g., um membro é um vector), member initializer list assegura que se usa o construtor por copia
+
+# Class composition (cont.)
+
+- Implementar degree()
+
+# Class composition (cont.)
+
+- Implementar add()
+
+# Destructors
+
+- Compilador cria por nós construtores e destrutores "vazios"
+- Automaticamente chama destrutores de todos os membros
+
+# Destructors (cont.)
+
+- É por isso que são necessários destrutores 
+  -> o destrutor do vector já faz este delete, daí não termos precisado de fazer no caso anterior
+- Lembrem-se: cada new tem que ter um delete correspondente
+  -> ideal: nunca usar o new (bibliotecas como vector, ou smart pointers)
+
+
+# static class members
+
+- É como se fossem funções "livres" como estão habituados, sem acesso a estado de um objecto, apenas estão associadas a uma classe
+
+# static class members (cont.)
+
+- Inicialização de variáveis globais só pode acontecer num ficheiro .cpp por programa
+ -> Conta como implementação
+
+
+# `static` class members (cont.)
+
+
+# `friend` declarations
+
+- Quando uma classe quer dar acesso aos seus membros privados a outra classe
+- Não é recomendado usar, quebra encapsulação
+
+# `friend` declarations (cont.)
+
+- Reparem que o operador não faz parte da classe, overload está a ser declarado globalmente
+

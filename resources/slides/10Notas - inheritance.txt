@@ -1,0 +1,285 @@
+[Explicação das streams]
+
+- conceito de stream
+ -> Temos um conjunto de dados (ficheiro, string, vídeo), em que vamos ler apenas numa direção, e aos bocados
+
+- hierarquia simples (stream, i/ostream, várias implementações)
+ -> ios 
+    |- istream (cin)
+      |- ifstream
+      |- istringstream
+    |- ostream (cout)
+      |- ofstream
+      |- ostringstream
+
+- se usaram o cout/cin, o mecanismo de hierarquia/herança permite partilhar funcionalidade
+
+- mostrar os vários exemplos: ifstream, istringstream
+
+ -> ifstream in(fname)
+ -> if(!in)...
+ -> ofstream out(fname)
+ -> out << std::fixed << std::setprecision(3)
+ -> string line; std::getline(in, line)
+ -> std::istringstream s(line); string word; while(s >> word)
+
+- o que acontece quando se termina uma stream
+ -> `out << "\" << 10`, são operadores binários como `1 + 2 + 3`, `out << "\"` o que devolve?
+ -> devolve a própria stream, para poder ser usada de forma encadeada na próxima operação 
+ -> semelhante a como 1+2 devolve 3, e é usado na próxima operação
+
+# Declaring subclasses
+
+- Exemplo de streams (ver)
+
+# A first example
+
+- Classe que define uma pessoa, muito simples. O que temos aqui?
+ -> Dois fields
+ -> Dois construtores
+ -> Dois accessors
+
+- Pq é que os fields chamam-se pid e pname?
+ -> Evitar conflito com o nome dos métodos. Como esses método são públicos, 
+ escolheu-se por nomes "piores" para as variáveis privadas que estão escondidas
+ -> Isto varia muito de linguagem para linguagem. Em Java não há conflito entre nomes de métodos e fields
+
+# A first example (cont.)
+
+- Como se estivéssemos a construir por cima do que herdámos. 
+ -> O que é private, continua private
+
+
+# Class hierarchies
+
+- person
+  |- teacher
+  |- student
+    |- erasmus_student
+    |- working_student
+
+# Inherited functionality
+
+- Se person tem id() e name(), se teacher é um person, também tem id() e name()
+
+# Inherited functionality (cont.)
+
+- Mecanismo de reutilização
+ -> Evitar duplicar código. Por esta altura, já entendem porque não se deve duplicar código? Princípio (DRY) Don't Repeat Yourself
+   > Reduzir esforço ao haver menos código escrito
+   > Erros de copy-paste
+   > + importante, se for preciso modificar alguma coisa (melhorar código/corrigir bug), só tenho que mudar num sítio.
+    Se tiver que mudar em vários, além de mais esforço, posso esquerce-me de algum dos sítios
+
+# Class inheritance vs. class composition
+
+- Estabelece uma relação "is-a" ("é um")
+ -> Professor "é uma" pessoa
+ -> Composição "tem um": carro não é um motor, "tem um" motor
+ -> Duas ferramentas genéricas de OO
+
+- Herança deve ser usada com cuidado, apenas quando faz sentido
+ -> Fácil de usar mal
+
+# Subclass constructors
+
+- Quando uma subclasse é construída, a primeira coisa que faz é construir a classe pai
+ -> Acontece sempre, podemos usar o construtor pai na member initializer list
+ -> mesmo que não se coloque, o compilador coloca lá o construtor default  
+ -> É recursivo, pai do pai do pai...
+ 
+ # Subclass constructors (cont.)
+
+ - Temos aqui algo interessante. O construtor person o que recebe?
+  -> person
+  -> Como é que podemos estar a passar um teacher?
+  -> Teacher É um person, qualquer sítio que aceite person, aceita teacher
+
+
+
+# protected access modifier
+
+- protected permite subclasses terem acesso às partes privadas do pai e acenstrais
+- Não é tão mau como o friend, mas há formas melhores de usar
+ -> Recomendação: fields serem sempre private; tornar protected métodos que possam
+ ser úteis para gestão interna e que não queremos expor ao público/clientes
+
+
+# protected access modifier (cont.) 
+
+- pid e pname já não são privados para a classe, são "privados" para a classe e subclasses
+
+
+# Inheritance and access modifiers
+
+- Feature do C++, em linguagens como o Java não é permitido diminuir a visibilidade de um membro de uma classe
+ -> Algo a evitar
+
+# Inheritance and access modifiers (cont.)
+
+- Pode-se dizer que quebra o princípio de Liskov?
+ -> Liskov Substitution Principle
+ -> Objetos de uma classe devem poder ser substituídos por objectos da subclasse sem quebrar a aplicação
+   > E.g., qualquer sítio que aceite um Person, deve funcionar se lhe passar um Teacher
+-> Tecnicamente não quebra o princípio, porque em C++, se teacher estender person de forma privada, teacher NÃO É um person
+   > C++ não deixa fazer cast de Teacher para Person neste caso
+   
+
+# Pointers and references
+
+
+# Casting
+
+Person p = teacher; // Ok (com asteriscos - isto é C++, tudo tem asteriscos)
+Teacher t = person; // Fail (person não é um teacher)
+
+
+# Object slicing
+
+- '=' é sempre uma cópia (a não ser que tenha & no tipo)
+- Estamos a criar um Person, que apenas tem id e nome, com uma cópia dos dados do Teacher
+ -> Não tem informação do Teacher
+- Se fosse referência, tínhamos um apontador a apontar para um objeto Teacher. É possível voltar de novo para Teacher com (dynamic) cast
+
+# Redefinition of member functions
+
+- Herança permite redefinição de métodos
+
+# Redefinition of member functions (cont.)
+
+- Algo que herança permite é reutilização de métodos desta forma
+ -> Teacher adiciona o field/campo department
+ -> O print() do Teacher pode chamar o print() do Person e adicionar a informação do Teacher
+
+# Redefinition of member functions (cont.)
+
+# Redefinition of member functions (cont.)
+
+- Mostrar exemplo no quadro
+
+# Redefinition of member functions (cont.)
+
+- Resposta depende se o método foi declarado como virtual ou não
+- Neste caso, não foi declarado como virtual, então é o da classe do tipo da variável
+ -> Reparar que se Teacher não tivesse re-declarado print(), só havia uma declaração
+ -> Neste caso, mesmo que a classe do tipo fosse Teacher, seria o print() do Person, é o único print()
+
+
+# Virtual functions
+
+- Se queremos que o método a ser invocado seja o mais específico de um objecto, declaração original tem que ser virtual
+- Isto cria uma virtual table para a classe desse objeto, que determina o método mais específico durante a execução
+
+# Use of virtual
+
+- Isto é o comportamento default em praticamente todas as outras linguages OO, tudo é virtual
+ -> C++ é a exceção. Qual o benefício de um método não ser virtual? Performance 
+ -> É mau design da linguagem o virtual não ser o default, é a opção mais surpreendente para quem programa
+
+# Use of the override modifier
+
+- Recomendado que usem, liga checks do compilador
+
+# Use of the override modifier (const.)
+
+
+# Use of the override modifier (const.)
+
+- Assim compilador sabe que a vossa intenção era um override, e não um função nova
+
+# Use of final
+
+- Mais uma ferramenta para limitar possibilidades 
+ -> o que é importante, limita também o que temos que ter em mente para entender o código
+
+# Use of final (cont.)
+
+
+# Use of final (cont.)
+
+- Além de métodos, classes também
+
+
+# Pure virtual functions and abstract classes
+
+- Funções abstractas (ou virtuais puras)
+ -> Se um dos métodos é abstrato, automaticamente a classe é abstracta
+   > Não podem ser instanciadas, apenas sub-classes que implementem os métodos
+ -> Para que serve?
+
+
+# Pure virtual functions and abstract classes (cont.)
+
+- São uma ferramenta bastante útil até. Permitem definir "interfaces"
+ -> Definem um contrato que as subclasses devem seguir, sem ter que haver uma implementação à partida
+ -> Pode não fazer sentido uma implementação para a classe base
+ -> Cada subclasse que queira ser instanciada, é obrigada a implementar as funções abstratas
+ -> Vão ter um exemplo disto no projecto
+
+# Consolidating example
+
+# shape abstract class
+
+- Não faz sentido o shape implementar area e center, não tem informação nenhuma para isso
+ -> Mas queremos que quem derive shape, implemente
+
+
+# Virtual destructor
+
+- O destrutor por defeito não é virtual
+- Se tivermos um pointer de Person para Teacher, o destrutor do Teacher só será chamado se for 
+declarado com virtual. Se não, chama o destrutor de Person
+- Gotcha muito comum em C++
+- Recordar que new e delete não é recomendado em C++ moderno, prefere-se RAII e smart pointers
+
+# Example subclass of shape
+
+- Elipse pode ser definida por uma coordenada com o centro, e dois raios
+- métodos próprios, que só fazem sentido para a Elipse
+
+# Example subclass of shape (cont.)
+- override dos métodos do shape
+- move assume que coord2d tem overload para +
+
+# One more level in the hierarchy …
+
+
+ # The other classes in the shape hierarchy ….
+
+
+ # The drawing class
+
+- Porque é que ~drawing() não tem virtual?
+ -> class drawing está marcada como final, não pode ter subclasses
+   > No entanto, se houvesse a decisão de deixar de ser final, era NECESSÁRIO colocar ~drawing() como virtual
+   > Perigoso: quando uma mudança num sítio no código implica mudanças noutros sítios que nos podemos esquecer
+
+- Porquê vector<shape*> e não vector<shape>?
+
+# The drawing class (cont.)
+
+- Porquê vector<shape*> e não vector<shape>?
+ -> vector<shape> alocaria espaço para shapes (que não tem fields!)
+ -> Cada shape pode ser coisas muito diferentes, assim o vector apenas aloca espaço para os apontadores
+ -> Alocação de cada shape é feita à parte, no momento em que as shapes específicas são criadas
+
+# The drawing class (cont.)
+
+- Assume que alocamos novas shapes com new
+ -> Para evitar isto, seria necessário usar smart pointers, e.g., shared_ptr (vector<shared_ptr<shape>>)
+
+- O que faz o código?
+ -> Adiciona novas shapes
+ -> move-as
+ -> Imprime-as
+
+# The drawing class (cont.)
+
+- Como todos os shapes têm um método move (que foram obrigados a implementar),
+podem fazer coisas como "mover todos os shapes"
+
+
+# The drawing class (cont.)
+
+- É preciso ter cuidado com as assumptions, deve estar sempre bem documentadas,
+quando criamos o nosso código.
