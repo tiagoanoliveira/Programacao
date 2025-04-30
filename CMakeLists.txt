@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(project)
+project(Projeto_Programação)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror")
