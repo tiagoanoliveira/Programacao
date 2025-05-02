@@ -3,7 +3,7 @@
 //
 #include <iostream>
 void append(alist* a, const alist* b) {
-
+    
 }
 
 int main() {
