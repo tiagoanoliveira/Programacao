@@ -29,6 +29,13 @@ namespace prog {
          */
         Image *run();
 
+        /**
+         * Provides a reference for the vector of commands.
+         *
+         * @return a reference to the commends
+         */
+        std::vector<Command *> getCommands() const;
+
     private:
         // Commands
         std::vector<Command *> commands;

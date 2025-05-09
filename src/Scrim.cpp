@@ -29,4 +29,8 @@ namespace prog {
     Image *Scrim::run() {
         return this->run(nullptr);
     }
+
+    std::vector<Command *> Scrim::getCommands() const {
+        return commands;
+    }
 }
