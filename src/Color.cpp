@@ -4,40 +4,32 @@
 using std::istream;
 
 namespace prog {
-    Color::Color() {
+    Color::Color() : r(0), g(0), b(0) {
     }
 
-    Color::Color(const Color &other) {
+    Color::Color(const Color &other) : r(other.r), g(other.g), b(other.b) {
     }
 
-    Color::Color(rgb_value red, rgb_value green, rgb_value blue) {
+    Color::Color(rgb_value red, rgb_value green, rgb_value blue) : r(red), g(green), b(blue) {
     }
 
-    rgb_value Color::red() const {
-        return 0;
+    rgb_value Color::red() const { return r; }
+    rgb_value &Color::red() { return r; }
+
+    rgb_value Color::green() const { return g; }
+    rgb_value &Color::green() { return g; }
+
+    rgb_value Color::blue() const { return b; }
+    rgb_value &Color::blue() { return b; }
+
+    // Implementação do operador ==
+    bool Color::operator==(const Color &other) const {
+        return r == other.r && g == other.g && b == other.b;
     }
 
-    rgb_value Color::green() const {
-        return 0;
-    }
-
-    rgb_value Color::blue() const {
-        return 0;
-    }
-
-    // TODO: remove this DUMMY variable once you have appropriate fields for representing colors.
-    rgb_value DUMMY_rgb_value = 0;
-
-    rgb_value &Color::red() {
-        return DUMMY_rgb_value;
-    }
-
-    rgb_value &Color::green() {
-        return DUMMY_rgb_value;
-    }
-
-    rgb_value &Color::blue() {
-        return DUMMY_rgb_value;
+    // Implementação do operador !=
+    bool Color::operator!=(const Color &other) const {
+        return !(*this == other);
     }
 }
 

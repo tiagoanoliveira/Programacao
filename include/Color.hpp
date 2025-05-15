@@ -8,8 +8,7 @@ namespace prog {
 
     class Color {
     private:
-        // TODO: private fields required for color representation.
-
+        rgb_value r, g, b;
     public:
         Color();
 
@@ -28,6 +27,10 @@ namespace prog {
         rgb_value blue() const;
 
         rgb_value &blue();
+
+        // Operadores de comparação
+        bool operator==(const Color &other) const;
+        bool operator!=(const Color &other) const;
     };
 }
 

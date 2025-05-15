@@ -6,12 +6,18 @@
 #include "Command/Blank.hpp"
 #include "Command/Save.hpp"
 #include "Command/Open.hpp"
+#include "Command/Invert.hpp"
+#include "Command/Grayscale.hpp"
+#include "Command/Replace.hpp"
+#include "Command/Fill.hpp"
+#include "Command/HMirror.hpp"
+#include "Command/VMirror.hpp"
+#include "Command/Move.hpp"
 #include "Logger.hpp"
 
 #include <fstream>
 #include <string>
 #include <vector>
-#include <cstdlib>
 
 using std::ifstream;
 using std::istream;
@@ -80,6 +86,36 @@ namespace prog {
             input >> filename;
             return new command::Open(filename);
         }
+
+        if (command_name == "invert") {
+            return new command::Invert();
+        }
+
+        if (command_name == "to_gray_scale") {
+            return new command::Grayscale();
+        }
+
+        if (command_name == "replace") {
+            Color c1, c2;
+            input >> c1 >> c2;
+            return new command::Replace(c1, c2);
+        }
+
+        if (command_name == "fill") {
+            int x, y, w, h;
+            Color c;
+            input >> x >> y >> w >> h >> c;
+            return new command::Fill(x, y, w, h, c);
+        }
+
+        if (command_name == "h_mirror") {
+            return new command::HMirror();
+        }
+
+        if (command_name == "v_mirror") {
+            return new command::VMirror();
+        }
+
 
         // TODO: implement cases for the new commands
 
