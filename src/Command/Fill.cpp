@@ -8,7 +8,7 @@
 namespace prog {
     namespace command {
 
-        Fill::Fill(int x, int y, int w, int h, Color color)
+        Fill::Fill(int x, int y, int w, int h, const Color &color)
             : Command("fill"), x(x), y(y), w(w), h(h), color(color) {}
 
         Fill::~Fill() {}
@@ -18,7 +18,7 @@ namespace prog {
 
             int imgWidth = img->width();
             int imgHeight = img->height();
-
+            //Percorrer todos os pixeis a começar em (x,y) w pixeis para a direita e h pixeis para baixo e preencher todos os pixeis do retângulo com a color
             for (int j = y; j < y + h; ++j) {
                 for (int i = x; i < x + w; ++i) {
                     if (i >= 0 && i < imgWidth && j >= 0 && j < imgHeight) {
