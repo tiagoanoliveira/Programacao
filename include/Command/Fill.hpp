@@ -10,7 +10,7 @@ namespace prog {
             int x, y, w, h;
             Color color;
         public:
-            Fill(int x, int y, int w, int h, Color color);
+            Fill(int x, int y, int w, int h, const Color &color);
 
             ~Fill();
 
