@@ -13,8 +13,10 @@
 #include "Command/HMirror.hpp"
 #include "Command/VMirror.hpp"
 #include "Command/Move.hpp"
+#include "Command/Scale_up.hpp"
 #include "Logger.hpp"
 #include "Command/Resize.hpp"
+
 #include <fstream>
 #include <string>
 #include <vector>
@@ -117,10 +119,13 @@ namespace prog {
         }
         if (command_name == "resize") {
             int x, y, w, h;
-
             input >> x >> y >> w >> h;
-
             return new command::Resize(x, y, w, h);
+        }
+        if (command_name == "scaleup") {
+            int x,y;
+            input >> x >> y;
+            return new command::Scale_up(x,y);
         }
         // TODO: implement cases for the new commands
 
