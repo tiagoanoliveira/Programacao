@@ -1,40 +1,1 @@
-# Header vs. implementation files
-
-- Headers vs implementations
-- Muito importante saber a diferença entre uma declaração e uma implementação
-
-# Example
-
-- Porque é que precisamos das declarações?
-
-# Guidelines
-
-- Imaginem que estão num projeto com milhares de ficheiros e uma equipa de dezenas de pessoas.
- Se não seguem muito estritamente um conjuto de regras, rapidamente as coisas correm mal.
-
-
-# Separate compilation process
-
-- Voltar a relembrar o processo de compilação do C++ (igual ao do C)
-
-# Separate compilation process (cont.)
-
-- Preprocessador é um passo "dumb", aplica regras simples ao texto
-
-- Parsing, onde têm a maior parte dos erros de compilação, gera object files
-
-
-# Separate compilation process (cont.)
-
-- Cada ficheiro .cpp é compilado de forma separada, e junta-se tudo no executável durante a linkagem
-
-
-# Why no declarations in header files?
-
-- Exemplo no código de colocar o evaluate no .hpp
- -> Fraction.hpp tem implementação do reduce()
- -> Header files são necessárias: só se pode usar classes e funções para as quais temos declarações
- -> Entre todos os ficheiros .cpp de um programa, só pode haver uma implementação para cada declaração
- -> Mais do que uma implementação, dá erro de linkagem (quando se junta todas as implementações compiladas)
-
-#...
+# Header vs. implementation files- Headers vs implementations- Muito importante saber a diferença entre uma declaração e uma implementação# Example- Porque é que precisamos das declarações?# Guidelines- Imaginem que estão num projeto com milhares de ficheiros e uma equipa de dezenas de pessoas. Se não seguem muito estritamente um conjuto de regras, rapidamente as coisas correm mal.# Separate compilation process- Voltar a relembrar o processo de compilação do C++ (igual ao do C)# Separate compilation process (cont.)- Preprocessador é um passo "dumb", aplica regras simples ao texto- Parsing, onde têm a maior parte dos erros de compilação, gera object files# Separate compilation process (cont.)- Cada ficheiro .cpp é compilado de forma separada, e junta-se tudo no executável durante a linkagem# Why no declarations in header files?- Exemplo no código de colocar o evaluate no .hpp -> Fraction.hpp tem implementação do reduce() -> Header files são necessárias: só se pode usar classes e funções para as quais temos declarações -> Entre todos os ficheiros .cpp de um programa, só pode haver uma implementação para cada declaração -> Mais do que uma implementação, dá erro de linkagem (quando se junta todas as implementações compiladas)#...

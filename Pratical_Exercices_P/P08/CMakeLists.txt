@@ -18,3 +18,4 @@ link_libraries(m)
 
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
+add_executable(point2d point2d.cpp)

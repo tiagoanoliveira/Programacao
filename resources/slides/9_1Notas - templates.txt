@@ -1,38 +1,1 @@
-# Templates
-
-- O compilador faz alguma magia quando encontra templates
-- O código do header file não corresponde a uma implementação. Consoante o tipo com que a classe for instanciada,
-o compilador vai criar um ficheiro de implementação à parte, para aquele tipo (ou tipos)
-
-# Templates
-
-- Vamos ver vários exemplos
- -> Polynomial que em vez de estar hardcoded para Fraction, pode agora ser parameterizável (e.g., double)
- -> simple_vector, agora como classe
- -> tuplo de tamanho 2
-
-# `polynomial`
-
-- Como é que tornamos o tipo genérico, em vez de estar hardcoded para fraction?
-
- # `polynomial<T>`
-
-
-# simple_vector<T>
-
-- Ponteiro alocado dinamicamente para guardar os elementos
-- Tamanho (m) diferente da capacidade (n)
- -> Porquê?
-
-
-# simple_vector<T> (cont.)
-
-- Qual o output deste código?
-- Assumir que quando é preciso mais capacidade, duplica a atual (deveria ser a próxima potencia de 2)
-- Porque é comum ter-se que copiar de novo os elementos?
- -> Se alocarmos um bloco, e entretanto for alocado outro ao lado, não dá para pedir mais (mesmo com realloc)
-
-
-# pair<T,U> (cont.)
-
-- Qual o output deste código?
+# Templates- O compilador faz alguma magia quando encontra templates- O código do header file não corresponde a uma implementação. Consoante o tipo com que a classe for instanciada,o compilador vai criar um ficheiro de implementação à parte, para aquele tipo (ou tipos)# Templates- Vamos ver vários exemplos -> Polynomial que em vez de estar hardcoded para Fraction, pode agora ser parameterizável (e.g., double) -> simple_vector, agora como classe -> tuplo de tamanho 2# `polynomial`- Como é que tornamos o tipo genérico, em vez de estar hardcoded para fraction? # `polynomial<T>`# simple_vector<T>- Ponteiro alocado dinamicamente para guardar os elementos- Tamanho (m) diferente da capacidade (n) -> Porquê?# simple_vector<T> (cont.)- Qual o output deste código?- Assumir que quando é preciso mais capacidade, duplica a atual (deveria ser a próxima potencia de 2)- Porque é comum ter-se que copiar de novo os elementos? -> Se alocarmos um bloco, e entretanto for alocado outro ao lado, não dá para pedir mais (mesmo com realloc)# pair<T,U> (cont.)- Qual o output deste código?
