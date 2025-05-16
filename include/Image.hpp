@@ -9,7 +9,7 @@ namespace prog {
     private:
         int w, h;
         std::vector<std::vector<Color>> pixels;
-    
+        Color fill_color;
 	public:
         Image(int w, int h, const Color &fill = {255, 255, 255});
 
@@ -22,6 +22,8 @@ namespace prog {
         Color &at(int x, int y);
 
         const Color &at(int x, int y) const;
+
+        Color fillColor() const;
     };
 }
 #endif

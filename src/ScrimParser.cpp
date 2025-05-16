@@ -14,7 +14,7 @@
 #include "Command/VMirror.hpp"
 #include "Command/Move.hpp"
 #include "Logger.hpp"
-
+#include "Command/Resize.hpp"
 #include <fstream>
 #include <string>
 #include <vector>
@@ -115,8 +115,13 @@ namespace prog {
         if (command_name == "v_mirror") {
             return new command::VMirror();
         }
+        if (command_name == "resize") {
+            int x, y, w, h;
 
+            input >> x >> y >> w >> h;
 
+            return new command::Resize(x, y, w, h);
+        }
         // TODO: implement cases for the new commands
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
