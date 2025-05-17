@@ -14,8 +14,10 @@
 #include "Command/VMirror.hpp"
 #include "Command/Move.hpp"
 #include "Command/Scale_up.hpp"
-#include "Logger.hpp"
 #include "Command/Resize.hpp"
+#include "Command/Crop.hpp"
+#include "Logger.hpp"
+
 
 #include <fstream>
 #include <string>
@@ -126,6 +128,11 @@ namespace prog {
             int x,y;
             input >> x >> y;
             return new command::Scale_up(x,y);
+        }
+        if (command_name == "crop") {
+            int x, y, w, h;
+            input >> x >> y >> w >> h;
+            return new command::Crop(x, y, w, h);
         }
         // TODO: implement cases for the new commands
 
