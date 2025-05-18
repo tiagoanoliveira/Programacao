@@ -16,6 +16,7 @@
 #include "Command/Scale_up.hpp"
 #include "Command/Resize.hpp"
 #include "Command/Crop.hpp"
+#include"Command/Rotate.hpp"
 #include "Logger.hpp"
 
 
@@ -133,6 +134,14 @@ namespace prog {
             int x, y, w, h;
             input >> x >> y >> w >> h;
             return new command::Crop(x, y, w, h);
+        }
+        if (command_name == "rotate_left") {
+            string direction = "left";
+            return new command::Rotate(direction);
+        }
+        if (command_name == "rotate_right") {
+            string direction = "right";
+            return new command::Rotate(direction);
         }
         // TODO: implement cases for the new commands
 
