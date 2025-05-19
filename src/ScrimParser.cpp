@@ -16,7 +16,8 @@
 #include "Command/Scale_up.hpp"
 #include "Command/Resize.hpp"
 #include "Command/Crop.hpp"
-#include"Command/Rotate.hpp"
+#include "Command/Rotate.hpp"
+#include "Command/Slide.hpp"
 #include "Logger.hpp"
 
 
@@ -142,6 +143,11 @@ namespace prog {
         if (command_name == "rotate_right") {
             string direction = "right";
             return new command::Rotate(direction);
+        }
+        if (command_name == "slide") {
+            int x, y;
+            input >> x >> y;
+            return new command::Slide(x, y);
         }
         // TODO: implement cases for the new commands
 
