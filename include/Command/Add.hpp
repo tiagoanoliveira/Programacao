@@ -6,7 +6,6 @@
 #define ADD_HPP
 #include "Command.hpp"
 #include "Image.hpp"
-#include <string>
 
 namespace prog {
     namespace command {
