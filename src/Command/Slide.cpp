@@ -3,6 +3,7 @@
 //
 #include "Command/Slide.hpp"
 #include "Image.hpp"
+#include <sstream>
 namespace prog {
     namespace command {
 
@@ -32,7 +33,9 @@ namespace prog {
         }
 
         std::string Slide::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " x:" << x << " y:" << y;
+            return ss.str();
         }
 
     }

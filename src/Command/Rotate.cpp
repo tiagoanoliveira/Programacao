@@ -3,6 +3,7 @@
 //
 #include "Command/Rotate.hpp"
 #include "Image.hpp"
+#include <sstream>
 namespace prog {
     namespace command {
 
@@ -37,7 +38,9 @@ namespace prog {
         }
 
         std::string Rotate::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " direction: " << direction;
+            return ss.str();
         }
 
     }

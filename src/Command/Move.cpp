@@ -3,6 +3,7 @@
 //
 #include "Command/Move.hpp"
 #include "Image.hpp"
+#include <sstream>
 namespace prog {
     namespace command {
 
@@ -34,7 +35,9 @@ namespace prog {
         }
 
         std::string Move::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " x:" << x << " y:" << y;
+            return ss.str();
         }
 
     }

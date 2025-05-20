@@ -4,6 +4,7 @@
 #include "Image.hpp"
 #include "Command/Add.hpp"
 #include "PNG.hpp"
+#include <sstream>
 namespace prog {
     namespace command{
         Add::Add(const std::string& filename, int r, int g, int b, int x, int y)
@@ -36,7 +37,9 @@ namespace prog {
             return img;
         }
         std::string Add::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " filename:" << filename << " r:" << r << " g:" << g << " b:" << b << " x:" << x << " y:" << y;
+            return ss.str();
         }
     }
 }

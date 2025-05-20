@@ -3,6 +3,7 @@
 //
 #include "Command/Scale_up.hpp"
 #include "Image.hpp"
+#include <sstream>
 
 namespace prog {
     namespace command {
@@ -36,8 +37,9 @@ namespace prog {
 
 
         std::string Scale_up::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " x:" << x << " y:" << y;
+            return ss.str();
         }
-
     }
 }

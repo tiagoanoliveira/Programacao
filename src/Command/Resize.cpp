@@ -3,6 +3,7 @@
 //
 #include "Command/Resize.hpp"
 #include "Image.hpp"
+#include <sstream>
 
 namespace prog {
     namespace command {
@@ -33,7 +34,9 @@ namespace prog {
         }
 
         std::string Resize::toString() const {
-            return name();
+            std::ostringstream ss;
+            ss << name() << " x:" << x << " y:" << y << " h:" << h << " w:" << w;
+            return ss.str();
         }
 
     }
