@@ -22,19 +22,19 @@ namespace prog {
     rgb_value Color::blue() const { return b; }
     rgb_value &Color::blue() { return b; }
 
-    // Implementação do operador ==
+
     bool Color::operator==(const Color &other) const {
         return r == other.r && g == other.g && b == other.b;
     }
 
-    // Implementação do operador !=
+
     bool Color::operator!=(const Color &other) const {
         return !(*this == other);
     }
 }
 
 
-// Use to read color values from a script file.
+
 istream &operator>>(istream &input, prog::Color &c) {
     int r, g, b;
     input >> r >> g >> b;

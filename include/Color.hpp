@@ -28,7 +28,7 @@ namespace prog {
 
         rgb_value &blue();
 
-        // Operadores de comparação
+
         bool operator==(const Color &other) const;
         bool operator!=(const Color &other) const;
     };
