@@ -18,6 +18,7 @@
 #include "Command/Crop.hpp"
 #include "Command/Rotate.hpp"
 #include "Command/Slide.hpp"
+#include "Command/Add.hpp"
 #include "Logger.hpp"
 
 
@@ -153,6 +154,12 @@ namespace prog {
             int x, y;
             input >> x >> y;
             return new command::Move(x, y);
+        }
+        if (command_name == "add") {
+            int r, g, b, x, y;
+            string filename;
+            input >> filename >> r >> g >> b >> x >> y;
+            return new command::Add(filename, r, g, b, x, y);
         }
         // TODO: implement cases for the new commands
 
