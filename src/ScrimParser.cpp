@@ -149,6 +149,11 @@ namespace prog {
             input >> x >> y;
             return new command::Slide(x, y);
         }
+        if (command_name == "move") {
+            int x, y;
+            input >> x >> y;
+            return new command::Move(x, y);
+        }
         // TODO: implement cases for the new commands
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
