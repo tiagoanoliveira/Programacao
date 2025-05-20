@@ -8,15 +8,29 @@
 #include "Image.hpp"
 namespace prog {
     namespace command {
-
+        /**
+         * @brief The Slide class implements a command to shift the image content in a cyclic manner
+         *
+         * This class shifts the entire image content by x pixels horizontally and y pixels vertically.
+         * Pixels that would be moved outside the image boundaries reappear on the opposite edge,
+         * creating a wrapping/tiling effect.
+         */
         class Slide : public Command {
         private:
             int x,y;
         public:
+            /**
+             * @brief Constructor for the Slide command
+             *
+             * @param x Amount of horizontal shift in pixels (positive: right, negative: left)
+             * @param y Amount of vertical shift in pixels (positive: down, negative: up)
+             */
             Slide(int  x, int y);
+
             ~Slide();
 
             Image* apply(Image* img) override;
+
             std::string toString() const override;
         };
     }

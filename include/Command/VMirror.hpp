@@ -5,6 +5,12 @@
 
 namespace prog {
     namespace command {
+        /**
+         * @brief The VMirror class implements a command to vertically mirror an image
+         *
+         * This class flips the image vertically (top to bottom), creating a mirror
+         * effect where the top side becomes the bottom side and vice versa.
+         */
         class VMirror : public Command {
         public:
             VMirror();
