@@ -36,7 +36,7 @@ namespace prog {
                         path_for_recursion_check = std::filesystem::weakly_canonical(fs_path).string();
                     }
                 } catch (const std::filesystem::filesystem_error& e) {
-                    // Alterado de Logger::warn() para Logger::out()
+                    
                     *Logger::out() << "Chain: Filesystem error normalizing path '" << relative_scrim_path << "': " << e.what()
                                    << ". Using original path for recursion check." << std::endl;
                     path_for_recursion_check = relative_scrim_path;
