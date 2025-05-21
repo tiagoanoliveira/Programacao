@@ -19,8 +19,8 @@
 #include "Command/Rotate.hpp"
 #include "Command/Slide.hpp"
 #include "Command/Add.hpp"
+#include "Command/Chain.hpp"
 #include "Logger.hpp"
-
 
 #include <fstream>
 #include <string>
@@ -46,6 +46,8 @@ namespace prog {
         // Parse commands while there is input in the stream
         string command_name;
         while (input >> command_name) {
+            // Ignora marcadores 'end' do comando chain
+            if (command_name == "end") continue;
             Command *command = parse_command(command_name, input);
 
             if (command == nullptr) {
@@ -55,7 +57,7 @@ namespace prog {
                 }
 
 
-                *Logger::err() << "Error while parsing command\n";
+                *Logger::err() << "Error while parsing command stream.\n"; // Mensagem mais genérica
                 return nullptr;
             }
 
@@ -69,6 +71,10 @@ namespace prog {
 
     Scrim *ScrimParser::parseScrim(const std::string &filename) {
         ifstream in(filename);
+        if (!in.is_open()) { // Adicionar verificação se o ficheiro abriu
+            *Logger::err() << "ScrimParser: Could not open scrim file '" << filename << "'\n";
+            return nullptr;
+        }
         return parseScrim(in);
     }
 
@@ -161,8 +167,31 @@ namespace prog {
             input >> filename >> r >> g >> b >> x >> y;
             return new command::Add(filename, r, g, b, x, y);
         }
-        // TODO: implement cases for the new commands
-
+       
+        if (command_name == "chain") {
+            // Parseia file paths de scrims até encontrar comando reservado ou marcador 'end'
+            std::vector<std::string> chained_scrim_files;
+            static const std::set<std::string> reserved = {
+                "blank","save","open","invert","to_gray_scale","replace","fill",
+                "h_mirror","v_mirror","resize","scaleup","crop","rotate_left",
+                "rotate_right","slide","move","add","chain"
+            };
+            std::string token;
+            std::streampos pos;
+            while (true) {
+                input >> std::ws;
+                pos = input.tellg();
+                if (!(input >> token)) break;        
+                if (token == "end") continue;        
+                if (reserved.count(token)) {          
+                    input.seekg(pos);
+                    break;
+                }
+                chained_scrim_files.push_back(token);
+            }
+            return new command::Chain(chained_scrim_files);
+        }
+         
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
     }
