@@ -4,7 +4,6 @@
 #include "Command.hpp"
 #include <vector>
 #include <string>
-#include <set>
 
 namespace prog {
     namespace command {
@@ -18,7 +17,7 @@ namespace prog {
 
         private:
             std::vector<std::string> scrim_filenames_;
-            static std::set<std::string> active_scrims_;
+            static std::vector<std::string> active_scrims_;
         };
     }
 }
