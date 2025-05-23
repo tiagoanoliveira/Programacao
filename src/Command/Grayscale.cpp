@@ -17,10 +17,13 @@ namespace prog {
             int width = img->width();
             int height = img->height();
 
+            // Process each pixel to convert to grayscale
             for (int y = 0; y < height; ++y) {
                 for (int x = 0; x < width; ++x) {
                     Color &pixel = img->at(x, y);
+                    // Calculate the average of RGB components to get grayscale value
                     unsigned char v = (pixel.red() + pixel.green() + pixel.blue()) / 3;
+                    // Set all RGB components to the same value (grayscale)
                     pixel = Color(v, v, v);
                 }
             }

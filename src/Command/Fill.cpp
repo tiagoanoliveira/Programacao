@@ -18,10 +18,14 @@ namespace prog {
 
             int imgWidth = img->width();
             int imgHeight = img->height();
-            //Percorrer todos os pixeis a começar em (x,y) w pixeis para a direita e h pixeis para baixo e preencher todos os pixeis do retângulo com a color
+
+            // Iterate through the rectangular area to be filled
+            // Starting at (x,y) and extending w pixels right and h pixels down
             for (int j = y; j < y + h; ++j) {
                 for (int i = x; i < x + w; ++i) {
+                    // Check if the current position is within image boundaries
                     if (i >= 0 && i < imgWidth && j >= 0 && j < imgHeight) {
+                        // Fill the pixel with the specified color
                         img->at(i, j) = color;
                     }
                 }

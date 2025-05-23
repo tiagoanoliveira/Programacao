@@ -19,9 +19,11 @@ namespace prog {
             int width = img->width();
             int height = img->height();
 
+            // Iterate through each row
             for (int y = 0; y < height; ++y) {
+                // Only process the first half of columns to avoid double swapping
                 for (int x = 0; x < width / 2; ++x) {
-                    std::swap(img->at(x, y), img->at(width - 1 - x, y));
+                    std::swap(img->at(x, y), img->at(width - 1 - x, y)); // Swap pixels from left and right symmetrically
                 }
             }
             return img;

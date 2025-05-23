@@ -18,9 +18,12 @@ namespace prog {
             int width = img->width();
             int height = img->height();
 
+            // Iterate through all pixels in the image
             for (int y = 0; y < height; ++y) {
                 for (int x = 0; x < width; ++x) {
+                    // Check if the current pixel matches the color to be replaced
                     if (img->at(x, y) == c1) {
+                        // Replace with the new color
                         img->at(x, y) = c2;
                     }
                 }
