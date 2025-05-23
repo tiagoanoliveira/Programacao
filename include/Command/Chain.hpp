@@ -23,7 +23,6 @@ namespace prog {
 
             Image* apply(Image* img) override;
             std::string toString() const override;
-
         private:
             std::vector<std::string> scrim_filenames_;
             static std::vector<std::string> active_scrims_;
