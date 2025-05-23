@@ -14,19 +14,16 @@ namespace prog {
          * This class allows extracting a rectangular region of the image defined by
          * the coordinates (x,y) as the top-left corner and dimensions width (w) and height (h).
          * The resulting image will contain only the specified portion.
+         *
+         * @param x X-coordinate of the top-left corner of the area to crop
+         * @param y Y-coordinate of the top-left corner of the area to crop
+         * @param w Width of the area to crop
+         * @param h Height of the area to crop
          */
         class Crop : public Command {
         private:
             int x, y, w, h;
         public:
-            /**
-             * @brief Constructor for the Crop command
-             *
-             * @param x X-coordinate of the top-left corner of the area to crop
-             * @param y Y-coordinate of the top-left corner of the area to crop
-             * @param w Width of the area to crop
-             * @param h Height of the area to crop
-             */
             Crop(int x, int y, int w, int h);
 
             ~Crop();

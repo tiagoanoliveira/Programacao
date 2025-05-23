@@ -6,7 +6,6 @@
 namespace prog {
     namespace command {
         /**
-         * @class Invert
          * @brief Class that implements a command to invert the colors of an image
          *
         * This class inverts all color values of each pixel in the image,
