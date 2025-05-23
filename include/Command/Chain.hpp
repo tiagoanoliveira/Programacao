@@ -1,5 +1,5 @@
-#ifndef PROJECT_CHAIN_HPP
-#define PROJECT_CHAIN_HPP
+#ifndef CHAIN_HPP
+#define CHAIN_HPP
 
 #include "Command.hpp"
 #include <vector>
@@ -18,11 +18,9 @@ namespace prog {
 
         private:
             std::vector<std::string> scrim_filenames_;
-
-            static thread_local std::set<std::string> active_scrims_in_current_chain_;
-            static thread_local int current_chain_depth_;
+            static std::set<std::string> active_scrims_;
         };
     }
 }
 
-#endif //PROJECT_CHAIN_HPP
+#endif // CHAIN_HPP

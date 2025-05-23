@@ -167,31 +167,16 @@ namespace prog {
             input >> filename >> r >> g >> b >> x >> y;
             return new command::Add(filename, r, g, b, x, y);
         }
-       
+
         if (command_name == "chain") {
-            // Parseia file paths de scrims até encontrar comando reservado ou marcador 'end'
-            std::vector<std::string> chained_scrim_files;
-            static const std::set<std::string> reserved = {
-                "blank","save","open","invert","to_gray_scale","replace","fill",
-                "h_mirror","v_mirror","resize","scaleup","crop","rotate_left",
-                "rotate_right","slide","move","add","chain"
-            };
-            std::string token;
-            std::streampos pos;
-            while (true) {
-                input >> std::ws;
-                pos = input.tellg();
-                if (!(input >> token)) break;        
-                if (token == "end") continue;        
-                if (reserved.count(token)) {          
-                    input.seekg(pos);
-                    break;
-                }
-                chained_scrim_files.push_back(token);
+            std::vector<std::string> filenames;
+            std::string name;
+            while (input >> name && name != "end") {
+                filenames.push_back(name);
             }
-            return new command::Chain(chained_scrim_files);
+            return new command::Chain(filenames);
         }
-         
+
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
     }
