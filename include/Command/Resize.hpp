@@ -16,19 +16,16 @@ namespace prog {
          * This class allows resizing a rectangular area within the image defined by
          * the coordinates (x,y) as the starting point and new dimensions width (w) and height (h).
          * This typically creates a new image with the specified dimensions.
+         *
+         * @param x X-coordinate of the starting position
+         * @param y Y-coordinate of the starting position
+         * @param w New width for the resized image
+         * @param h New height for the resized image
          */
         class Resize : public Command {
         private:
             int x, y, w, h;
         public:
-            /**
-             * @brief Constructor for the Resize command
-             *
-             * @param x X-coordinate of the starting position
-             * @param y Y-coordinate of the starting position
-             * @param w New width for the resized image
-             * @param h New height for the resized image
-             */
             Resize(int x, int y, int w, int h);
 
             ~Resize();
