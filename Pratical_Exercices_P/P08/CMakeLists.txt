@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(exercises)
+project(P08)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined")
@@ -19,3 +19,7 @@ link_libraries(m)
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
 add_executable(point2d point2d.cpp)
+add_executable(date1 date1.cpp)
+add_executable(date2 date2.cpp)
+add_executable(date3 date3.cpp)
+add_executable(fraction fraction.cpp)
