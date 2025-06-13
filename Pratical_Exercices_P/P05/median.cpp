@@ -5,17 +5,12 @@
 #include <algorithm>
 using namespace std;
 int median(const int a[], int n) {
-    int median;
-    int *tmp=new int[n];
-    for (int i=0; i<n; i++) {
-        tmp[i]=a[i];
-    }
-    std::sort(tmp, tmp+n);
-    int middle=n/2;
-    if (n%2==0) {
-        median=(tmp[middle-1]+tmp[middle])/2;
-    }
-    else {median=tmp[middle];}
+    int *tmp = new int[n];
+    copy(a, a+n, tmp);
+    sort(tmp, tmp+n);
+    int median = tmp[n/2];
+    if (n%2==0) median=(tmp[n/2-1] + tmp[n/2])/2;
+    delete [] tmp;
     return median;
 }
 int main () {
@@ -31,4 +26,5 @@ int main () {
     { const int n = 2;
         int a[n] { 101, 99 };
         std::cout << median(a, n) << '\n'; }
+    return 0;
 }

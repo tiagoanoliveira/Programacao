@@ -7,15 +7,15 @@
 using namespace std;
 
 int* expand_cdata(const cdata a[], int n) {
-    int len=0;
-    for (int i=0; i<n; i++) {
+    int len =0;
+    for (int i =0; i<n; i++) {
         len+=a[i].count;
     }
-    int* r = new int[len];
+    int *r = new int[len];
     int pos=0;
-    for (int j=0; j<n; j++) {
-        for (int k=0; k<a[j].count; k++) {
-            r[pos]=a[j].value;
+    for (int i=0; i<n; i++) {
+        for (int j=0; j<a[i].count; j++) {
+            r[pos]=a[i].value;
             pos++;
         }
     }
