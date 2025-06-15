@@ -1,7 +1,7 @@
 CMakeFiles/tester.dir/src/Logger.cpp.o: \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/src/Logger.cpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp \
  /usr/include/stdc-predef.h \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Logger.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Logger.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,11 +1,11 @@
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/src/ScrimParser.cpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp \
  /usr/include/stdc-predef.h \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/ScrimParser.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Scrim.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Image.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Color.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/ScrimParser.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Scrim.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Image.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Color.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -163,24 +163,24 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Blank.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Color.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Save.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Open.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Invert.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Grayscale.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Replace.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Fill.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/HMirror.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/VMirror.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Move.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Image.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Scale_up.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Resize.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Crop.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Rotate.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Slide.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Add.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Chain.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Logger.hpp
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Blank.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Color.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Save.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Open.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Invert.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Grayscale.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Replace.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Fill.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/HMirror.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/VMirror.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Move.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Image.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Scale_up.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Resize.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Crop.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Rotate.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Slide.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Add.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Chain.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Logger.hpp

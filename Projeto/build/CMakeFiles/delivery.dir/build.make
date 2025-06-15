@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/tiago-oliveira/Files/FEUP/Prog/project_programacao
+CMAKE_SOURCE_DIR = /media/tiago-oliveira/Files/FEUP/Prog/Projeto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build
+CMAKE_BINARY_DIR = /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build
 
 # Utility rule file for delivery.
 
@@ -68,34 +68,34 @@ include CMakeFiles/delivery.dir/progress.make
 
 CMakeFiles/delivery: delivery.zip
 
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/include
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp
-delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/delivery.zip"
-	cd /media/tiago-oliveira/Files/FEUP/Prog/project_programacao && /usr/bin/cmake -E tar cf /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/delivery.zip --format=zip /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/include /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp
+delivery.zip: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/delivery.zip"
+	cd /media/tiago-oliveira/Files/FEUP/Prog/Projeto && /usr/bin/cmake -E tar cf /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/delivery.zip --format=zip /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp
 
 delivery: CMakeFiles/delivery
 delivery: delivery.zip
@@ -111,6 +111,6 @@ CMakeFiles/delivery.dir/clean:
 .PHONY : CMakeFiles/delivery.dir/clean
 
 CMakeFiles/delivery.dir/depend:
-	cd /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/tiago-oliveira/Files/FEUP/Prog/project_programacao /media/tiago-oliveira/Files/FEUP/Prog/project_programacao /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles/delivery.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/tiago-oliveira/Files/FEUP/Prog/Projeto /media/tiago-oliveira/Files/FEUP/Prog/Projeto /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/delivery.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/delivery.dir/depend
 

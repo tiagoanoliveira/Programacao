@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Projeto_Programação)
+project(project)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror")
@@ -48,19 +48,18 @@ set(ZIP_FILE ${CMAKE_BINARY_DIR}/delivery.zip)
 
 # Create the zip file using a custom command
 add_custom_command(
-    OUTPUT ${ZIP_FILE}
-    COMMAND ${CMAKE_COMMAND} -E tar "cf" ${ZIP_FILE} --format=zip ${FILES_TO_ZIP}
-    DEPENDS ${FILES_TO_ZIP}
-    COMMENT "Creating zip archive: ${ZIP_FILE}"
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    VERBATIM
+        OUTPUT ${ZIP_FILE}
+        COMMAND ${CMAKE_COMMAND} -E tar "cf" ${ZIP_FILE} --format=zip ${FILES_TO_ZIP}
+        DEPENDS ${FILES_TO_ZIP}
+        COMMENT "Creating zip archive: ${ZIP_FILE}"
+        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+        VERBATIM
 )
 
 # Create a custom target that depends on the zip file
 add_custom_target(delivery  # ALL # add ALL to update delivery.zip with every compilation
-    DEPENDS ${ZIP_FILE}
+        DEPENDS ${ZIP_FILE}
 )
 
 # If you want to choose the compiler, when calling cmake use the following flags (clang in this case):
-# cmake <path to CMakeLists.txt, usually ..> -D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++ 
-
+# cmake <path to CMakeLists.txt, usually ..> -D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++

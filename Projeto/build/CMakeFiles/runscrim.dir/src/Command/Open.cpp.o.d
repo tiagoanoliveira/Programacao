@@ -1,10 +1,10 @@
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/src/Command/Open.cpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp \
  /usr/include/stdc-predef.h \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/Open.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Image.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Color.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/Open.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Image.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Color.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -158,8 +158,8 @@ CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/PNG.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Logger.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/PNG.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Logger.hpp \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

@@ -1,7 +1,7 @@
 CMakeFiles/runscrim.dir/src/Color.cpp.o: \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/src/Color.cpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp \
  /usr/include/stdc-predef.h \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Color.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Color.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

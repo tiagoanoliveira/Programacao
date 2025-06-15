@@ -1,10 +1,10 @@
 CMakeFiles/runscrim.dir/src/Command/VMirror.cpp.o: \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/src/Command/VMirror.cpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp \
  /usr/include/stdc-predef.h \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command/VMirror.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Command.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Image.hpp \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Color.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command/VMirror.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Command.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Image.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Color.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -158,7 +158,7 @@ CMakeFiles/runscrim.dir/src/Command/VMirror.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /media/tiago-oliveira/Files/FEUP/Projeto/project_programacao/Projeto/include/Image.hpp \
+ /media/tiago-oliveira/Files/FEUP/Prog/Projeto/include/Image.hpp \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \

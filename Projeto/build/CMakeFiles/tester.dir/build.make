@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/tiago-oliveira/Files/FEUP/Prog/project_programacao
+CMAKE_SOURCE_DIR = /media/tiago-oliveira/Files/FEUP/Prog/Projeto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build
+CMAKE_BINARY_DIR = /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tester.dir/depend.make
@@ -70,368 +70,368 @@ include CMakeFiles/tester.dir/progress.make
 include CMakeFiles/tester.dir/flags.make
 
 CMakeFiles/tester.dir/src/Color.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Color.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp
+CMakeFiles/tester.dir/src/Color.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp
 CMakeFiles/tester.dir/src/Color.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tester.dir/src/Color.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Color.cpp.o -MF CMakeFiles/tester.dir/src/Color.cpp.o.d -o CMakeFiles/tester.dir/src/Color.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tester.dir/src/Color.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Color.cpp.o -MF CMakeFiles/tester.dir/src/Color.cpp.o.d -o CMakeFiles/tester.dir/src/Color.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp
 
 CMakeFiles/tester.dir/src/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Color.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp > CMakeFiles/tester.dir/src/Color.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp > CMakeFiles/tester.dir/src/Color.cpp.i
 
 CMakeFiles/tester.dir/src/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Color.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Color.cpp -o CMakeFiles/tester.dir/src/Color.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Color.cpp -o CMakeFiles/tester.dir/src/Color.cpp.s
 
 CMakeFiles/tester.dir/src/Command.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp
+CMakeFiles/tester.dir/src/Command.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp
 CMakeFiles/tester.dir/src/Command.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tester.dir/src/Command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command.cpp.o -MF CMakeFiles/tester.dir/src/Command.cpp.o.d -o CMakeFiles/tester.dir/src/Command.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tester.dir/src/Command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command.cpp.o -MF CMakeFiles/tester.dir/src/Command.cpp.o.d -o CMakeFiles/tester.dir/src/Command.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp
 
 CMakeFiles/tester.dir/src/Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp > CMakeFiles/tester.dir/src/Command.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp > CMakeFiles/tester.dir/src/Command.cpp.i
 
 CMakeFiles/tester.dir/src/Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command.cpp -o CMakeFiles/tester.dir/src/Command.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command.cpp -o CMakeFiles/tester.dir/src/Command.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Add.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Add.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp
+CMakeFiles/tester.dir/src/Command/Add.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp
 CMakeFiles/tester.dir/src/Command/Add.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tester.dir/src/Command/Add.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Add.cpp.o -MF CMakeFiles/tester.dir/src/Command/Add.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Add.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tester.dir/src/Command/Add.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Add.cpp.o -MF CMakeFiles/tester.dir/src/Command/Add.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Add.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp
 
 CMakeFiles/tester.dir/src/Command/Add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Add.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp > CMakeFiles/tester.dir/src/Command/Add.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp > CMakeFiles/tester.dir/src/Command/Add.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Add.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Add.cpp -o CMakeFiles/tester.dir/src/Command/Add.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Add.cpp -o CMakeFiles/tester.dir/src/Command/Add.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Blank.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Blank.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp
+CMakeFiles/tester.dir/src/Command/Blank.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp
 CMakeFiles/tester.dir/src/Command/Blank.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tester.dir/src/Command/Blank.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Blank.cpp.o -MF CMakeFiles/tester.dir/src/Command/Blank.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Blank.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tester.dir/src/Command/Blank.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Blank.cpp.o -MF CMakeFiles/tester.dir/src/Command/Blank.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Blank.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp
 
 CMakeFiles/tester.dir/src/Command/Blank.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Blank.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp > CMakeFiles/tester.dir/src/Command/Blank.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp > CMakeFiles/tester.dir/src/Command/Blank.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Blank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Blank.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Blank.cpp -o CMakeFiles/tester.dir/src/Command/Blank.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Blank.cpp -o CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Chain.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Chain.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp
+CMakeFiles/tester.dir/src/Command/Chain.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp
 CMakeFiles/tester.dir/src/Command/Chain.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tester.dir/src/Command/Chain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Chain.cpp.o -MF CMakeFiles/tester.dir/src/Command/Chain.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Chain.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tester.dir/src/Command/Chain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Chain.cpp.o -MF CMakeFiles/tester.dir/src/Command/Chain.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Chain.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp
 
 CMakeFiles/tester.dir/src/Command/Chain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Chain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp > CMakeFiles/tester.dir/src/Command/Chain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp > CMakeFiles/tester.dir/src/Command/Chain.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Chain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Chain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Chain.cpp -o CMakeFiles/tester.dir/src/Command/Chain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Chain.cpp -o CMakeFiles/tester.dir/src/Command/Chain.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Crop.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Crop.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp
+CMakeFiles/tester.dir/src/Command/Crop.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp
 CMakeFiles/tester.dir/src/Command/Crop.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tester.dir/src/Command/Crop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Crop.cpp.o -MF CMakeFiles/tester.dir/src/Command/Crop.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Crop.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tester.dir/src/Command/Crop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Crop.cpp.o -MF CMakeFiles/tester.dir/src/Command/Crop.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Crop.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp
 
 CMakeFiles/tester.dir/src/Command/Crop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Crop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp > CMakeFiles/tester.dir/src/Command/Crop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp > CMakeFiles/tester.dir/src/Command/Crop.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Crop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Crop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Crop.cpp -o CMakeFiles/tester.dir/src/Command/Crop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Crop.cpp -o CMakeFiles/tester.dir/src/Command/Crop.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Fill.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Fill.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp
+CMakeFiles/tester.dir/src/Command/Fill.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp
 CMakeFiles/tester.dir/src/Command/Fill.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tester.dir/src/Command/Fill.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Fill.cpp.o -MF CMakeFiles/tester.dir/src/Command/Fill.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Fill.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tester.dir/src/Command/Fill.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Fill.cpp.o -MF CMakeFiles/tester.dir/src/Command/Fill.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Fill.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp
 
 CMakeFiles/tester.dir/src/Command/Fill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Fill.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp > CMakeFiles/tester.dir/src/Command/Fill.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp > CMakeFiles/tester.dir/src/Command/Fill.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Fill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Fill.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Fill.cpp -o CMakeFiles/tester.dir/src/Command/Fill.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Fill.cpp -o CMakeFiles/tester.dir/src/Command/Fill.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp
+CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp
 CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o -MF CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o -MF CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Grayscale.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp
 
 CMakeFiles/tester.dir/src/Command/Grayscale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Grayscale.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp > CMakeFiles/tester.dir/src/Command/Grayscale.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp > CMakeFiles/tester.dir/src/Command/Grayscale.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Grayscale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Grayscale.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Grayscale.cpp -o CMakeFiles/tester.dir/src/Command/Grayscale.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Grayscale.cpp -o CMakeFiles/tester.dir/src/Command/Grayscale.cpp.s
 
 CMakeFiles/tester.dir/src/Command/HMirror.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/HMirror.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp
+CMakeFiles/tester.dir/src/Command/HMirror.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp
 CMakeFiles/tester.dir/src/Command/HMirror.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/HMirror.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/HMirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/HMirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/HMirror.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/HMirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/HMirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/HMirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/HMirror.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp
 
 CMakeFiles/tester.dir/src/Command/HMirror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/HMirror.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp > CMakeFiles/tester.dir/src/Command/HMirror.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp > CMakeFiles/tester.dir/src/Command/HMirror.cpp.i
 
 CMakeFiles/tester.dir/src/Command/HMirror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/HMirror.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/HMirror.cpp -o CMakeFiles/tester.dir/src/Command/HMirror.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/HMirror.cpp -o CMakeFiles/tester.dir/src/Command/HMirror.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Invert.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Invert.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp
+CMakeFiles/tester.dir/src/Command/Invert.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp
 CMakeFiles/tester.dir/src/Command/Invert.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/Invert.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Invert.cpp.o -MF CMakeFiles/tester.dir/src/Command/Invert.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Invert.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/Invert.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Invert.cpp.o -MF CMakeFiles/tester.dir/src/Command/Invert.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Invert.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp
 
 CMakeFiles/tester.dir/src/Command/Invert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Invert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp > CMakeFiles/tester.dir/src/Command/Invert.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp > CMakeFiles/tester.dir/src/Command/Invert.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Invert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Invert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Invert.cpp -o CMakeFiles/tester.dir/src/Command/Invert.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Invert.cpp -o CMakeFiles/tester.dir/src/Command/Invert.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Move.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Move.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp
+CMakeFiles/tester.dir/src/Command/Move.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp
 CMakeFiles/tester.dir/src/Command/Move.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/Move.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Move.cpp.o -MF CMakeFiles/tester.dir/src/Command/Move.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Move.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/Move.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Move.cpp.o -MF CMakeFiles/tester.dir/src/Command/Move.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Move.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp
 
 CMakeFiles/tester.dir/src/Command/Move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Move.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp > CMakeFiles/tester.dir/src/Command/Move.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp > CMakeFiles/tester.dir/src/Command/Move.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Move.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Move.cpp -o CMakeFiles/tester.dir/src/Command/Move.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Move.cpp -o CMakeFiles/tester.dir/src/Command/Move.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Open.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Open.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp
+CMakeFiles/tester.dir/src/Command/Open.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp
 CMakeFiles/tester.dir/src/Command/Open.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Command/Open.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Open.cpp.o -MF CMakeFiles/tester.dir/src/Command/Open.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Open.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Command/Open.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Open.cpp.o -MF CMakeFiles/tester.dir/src/Command/Open.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Open.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp
 
 CMakeFiles/tester.dir/src/Command/Open.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Open.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp > CMakeFiles/tester.dir/src/Command/Open.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp > CMakeFiles/tester.dir/src/Command/Open.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Open.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Open.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Open.cpp -o CMakeFiles/tester.dir/src/Command/Open.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Open.cpp -o CMakeFiles/tester.dir/src/Command/Open.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Replace.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Replace.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp
+CMakeFiles/tester.dir/src/Command/Replace.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp
 CMakeFiles/tester.dir/src/Command/Replace.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Command/Replace.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Replace.cpp.o -MF CMakeFiles/tester.dir/src/Command/Replace.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Replace.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Command/Replace.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Replace.cpp.o -MF CMakeFiles/tester.dir/src/Command/Replace.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Replace.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp
 
 CMakeFiles/tester.dir/src/Command/Replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Replace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp > CMakeFiles/tester.dir/src/Command/Replace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp > CMakeFiles/tester.dir/src/Command/Replace.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Replace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Replace.cpp -o CMakeFiles/tester.dir/src/Command/Replace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Replace.cpp -o CMakeFiles/tester.dir/src/Command/Replace.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Resize.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Resize.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp
+CMakeFiles/tester.dir/src/Command/Resize.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp
 CMakeFiles/tester.dir/src/Command/Resize.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/Command/Resize.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Resize.cpp.o -MF CMakeFiles/tester.dir/src/Command/Resize.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Resize.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/Command/Resize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Resize.cpp.o -MF CMakeFiles/tester.dir/src/Command/Resize.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Resize.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp
 
 CMakeFiles/tester.dir/src/Command/Resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Resize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp > CMakeFiles/tester.dir/src/Command/Resize.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp > CMakeFiles/tester.dir/src/Command/Resize.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Resize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Resize.cpp -o CMakeFiles/tester.dir/src/Command/Resize.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Resize.cpp -o CMakeFiles/tester.dir/src/Command/Resize.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Rotate.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp
+CMakeFiles/tester.dir/src/Command/Rotate.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Rotate.cpp.o -MF CMakeFiles/tester.dir/src/Command/Rotate.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Rotate.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Command/Rotate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Rotate.cpp.o -MF CMakeFiles/tester.dir/src/Command/Rotate.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Rotate.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp
 
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Rotate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp > CMakeFiles/tester.dir/src/Command/Rotate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp > CMakeFiles/tester.dir/src/Command/Rotate.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Rotate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Rotate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Rotate.cpp -o CMakeFiles/tester.dir/src/Command/Rotate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Rotate.cpp -o CMakeFiles/tester.dir/src/Command/Rotate.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Save.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Save.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp
+CMakeFiles/tester.dir/src/Command/Save.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp
 CMakeFiles/tester.dir/src/Command/Save.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/Save.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Save.cpp.o -MF CMakeFiles/tester.dir/src/Command/Save.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Save.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/Save.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Save.cpp.o -MF CMakeFiles/tester.dir/src/Command/Save.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Save.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp
 
 CMakeFiles/tester.dir/src/Command/Save.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Save.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp > CMakeFiles/tester.dir/src/Command/Save.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp > CMakeFiles/tester.dir/src/Command/Save.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Save.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Save.cpp -o CMakeFiles/tester.dir/src/Command/Save.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Save.cpp -o CMakeFiles/tester.dir/src/Command/Save.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp
+CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp
 CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o -MF CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o -MF CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Scale_up.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp
 
 CMakeFiles/tester.dir/src/Command/Scale_up.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Scale_up.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp > CMakeFiles/tester.dir/src/Command/Scale_up.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp > CMakeFiles/tester.dir/src/Command/Scale_up.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Scale_up.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Scale_up.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Scale_up.cpp -o CMakeFiles/tester.dir/src/Command/Scale_up.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Scale_up.cpp -o CMakeFiles/tester.dir/src/Command/Scale_up.cpp.s
 
 CMakeFiles/tester.dir/src/Command/Slide.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/Slide.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp
+CMakeFiles/tester.dir/src/Command/Slide.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp
 CMakeFiles/tester.dir/src/Command/Slide.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/Slide.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Slide.cpp.o -MF CMakeFiles/tester.dir/src/Command/Slide.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Slide.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/Slide.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/Slide.cpp.o -MF CMakeFiles/tester.dir/src/Command/Slide.cpp.o.d -o CMakeFiles/tester.dir/src/Command/Slide.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp
 
 CMakeFiles/tester.dir/src/Command/Slide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/Slide.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp > CMakeFiles/tester.dir/src/Command/Slide.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp > CMakeFiles/tester.dir/src/Command/Slide.cpp.i
 
 CMakeFiles/tester.dir/src/Command/Slide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/Slide.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/Slide.cpp -o CMakeFiles/tester.dir/src/Command/Slide.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/Slide.cpp -o CMakeFiles/tester.dir/src/Command/Slide.cpp.s
 
 CMakeFiles/tester.dir/src/Command/VMirror.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Command/VMirror.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp
+CMakeFiles/tester.dir/src/Command/VMirror.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp
 CMakeFiles/tester.dir/src/Command/VMirror.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/VMirror.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/VMirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/VMirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/VMirror.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/VMirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/VMirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/VMirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/VMirror.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp
 
 CMakeFiles/tester.dir/src/Command/VMirror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/VMirror.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp > CMakeFiles/tester.dir/src/Command/VMirror.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp > CMakeFiles/tester.dir/src/Command/VMirror.cpp.i
 
 CMakeFiles/tester.dir/src/Command/VMirror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/VMirror.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Command/VMirror.cpp -o CMakeFiles/tester.dir/src/Command/VMirror.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Command/VMirror.cpp -o CMakeFiles/tester.dir/src/Command/VMirror.cpp.s
 
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Image.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp
+CMakeFiles/tester.dir/src/Image.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.o -MF CMakeFiles/tester.dir/src/Image.cpp.o.d -o CMakeFiles/tester.dir/src/Image.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.o -MF CMakeFiles/tester.dir/src/Image.cpp.o.d -o CMakeFiles/tester.dir/src/Image.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp
 
 CMakeFiles/tester.dir/src/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp > CMakeFiles/tester.dir/src/Image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp > CMakeFiles/tester.dir/src/Image.cpp.i
 
 CMakeFiles/tester.dir/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Image.cpp -o CMakeFiles/tester.dir/src/Image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Image.cpp -o CMakeFiles/tester.dir/src/Image.cpp.s
 
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Logger.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp
+CMakeFiles/tester.dir/src/Logger.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.o -MF CMakeFiles/tester.dir/src/Logger.cpp.o.d -o CMakeFiles/tester.dir/src/Logger.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.o -MF CMakeFiles/tester.dir/src/Logger.cpp.o.d -o CMakeFiles/tester.dir/src/Logger.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp
 
 CMakeFiles/tester.dir/src/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp > CMakeFiles/tester.dir/src/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp > CMakeFiles/tester.dir/src/Logger.cpp.i
 
 CMakeFiles/tester.dir/src/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Logger.cpp -o CMakeFiles/tester.dir/src/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Logger.cpp -o CMakeFiles/tester.dir/src/Logger.cpp.s
 
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/PNG.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp
+CMakeFiles/tester.dir/src/PNG.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.o -MF CMakeFiles/tester.dir/src/PNG.cpp.o.d -o CMakeFiles/tester.dir/src/PNG.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.o -MF CMakeFiles/tester.dir/src/PNG.cpp.o.d -o CMakeFiles/tester.dir/src/PNG.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp
 
 CMakeFiles/tester.dir/src/PNG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/PNG.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp > CMakeFiles/tester.dir/src/PNG.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp > CMakeFiles/tester.dir/src/PNG.cpp.i
 
 CMakeFiles/tester.dir/src/PNG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/PNG.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/PNG.cpp -o CMakeFiles/tester.dir/src/PNG.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/PNG.cpp -o CMakeFiles/tester.dir/src/PNG.cpp.s
 
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Scrim.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp
+CMakeFiles/tester.dir/src/Scrim.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.o -MF CMakeFiles/tester.dir/src/Scrim.cpp.o.d -o CMakeFiles/tester.dir/src/Scrim.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.o -MF CMakeFiles/tester.dir/src/Scrim.cpp.o.d -o CMakeFiles/tester.dir/src/Scrim.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp
 
 CMakeFiles/tester.dir/src/Scrim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Scrim.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp > CMakeFiles/tester.dir/src/Scrim.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp > CMakeFiles/tester.dir/src/Scrim.cpp.i
 
 CMakeFiles/tester.dir/src/Scrim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Scrim.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Scrim.cpp -o CMakeFiles/tester.dir/src/Scrim.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Scrim.cpp -o CMakeFiles/tester.dir/src/Scrim.cpp.s
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/ScrimParser.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp
+CMakeFiles/tester.dir/src/ScrimParser.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.o -MF CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/tester.dir/src/ScrimParser.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.o -MF CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/tester.dir/src/ScrimParser.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/ScrimParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp > CMakeFiles/tester.dir/src/ScrimParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp > CMakeFiles/tester.dir/src/ScrimParser.cpp.i
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/ScrimParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/ScrimParser.cpp -o CMakeFiles/tester.dir/src/ScrimParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/ScrimParser.cpp -o CMakeFiles/tester.dir/src/ScrimParser.cpp.s
 
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/src/Utils.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp
+CMakeFiles/tester.dir/src/Utils.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.o -MF CMakeFiles/tester.dir/src/Utils.cpp.o.d -o CMakeFiles/tester.dir/src/Utils.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.o -MF CMakeFiles/tester.dir/src/Utils.cpp.o.d -o CMakeFiles/tester.dir/src/Utils.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp > CMakeFiles/tester.dir/src/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp > CMakeFiles/tester.dir/src/Utils.cpp.i
 
 CMakeFiles/tester.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/src/Utils.cpp -o CMakeFiles/tester.dir/src/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/src/Utils.cpp -o CMakeFiles/tester.dir/src/Utils.cpp.s
 
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/flags.make
-CMakeFiles/tester.dir/main/Tester.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/main/Tester.cpp
+CMakeFiles/tester.dir/main/Tester.cpp.o: /media/tiago-oliveira/Files/FEUP/Prog/Projeto/main/Tester.cpp
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.o -MF CMakeFiles/tester.dir/main/Tester.cpp.o.d -o CMakeFiles/tester.dir/main/Tester.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/main/Tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.o -MF CMakeFiles/tester.dir/main/Tester.cpp.o.d -o CMakeFiles/tester.dir/main/Tester.cpp.o -c /media/tiago-oliveira/Files/FEUP/Prog/Projeto/main/Tester.cpp
 
 CMakeFiles/tester.dir/main/Tester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/main/Tester.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/main/Tester.cpp > CMakeFiles/tester.dir/main/Tester.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/tiago-oliveira/Files/FEUP/Prog/Projeto/main/Tester.cpp > CMakeFiles/tester.dir/main/Tester.cpp.i
 
 CMakeFiles/tester.dir/main/Tester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/main/Tester.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/main/Tester.cpp -o CMakeFiles/tester.dir/main/Tester.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/tiago-oliveira/Files/FEUP/Prog/Projeto/main/Tester.cpp -o CMakeFiles/tester.dir/main/Tester.cpp.s
 
 # Object files for target tester
 tester_OBJECTS = \
@@ -493,7 +493,7 @@ tester: CMakeFiles/tester.dir/src/Utils.cpp.o
 tester: CMakeFiles/tester.dir/main/Tester.cpp.o
 tester: CMakeFiles/tester.dir/build.make
 tester: CMakeFiles/tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable tester"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -505,6 +505,6 @@ CMakeFiles/tester.dir/clean:
 .PHONY : CMakeFiles/tester.dir/clean
 
 CMakeFiles/tester.dir/depend:
-	cd /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/tiago-oliveira/Files/FEUP/Prog/project_programacao /media/tiago-oliveira/Files/FEUP/Prog/project_programacao /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build /media/tiago-oliveira/Files/FEUP/Prog/project_programacao/build/CMakeFiles/tester.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/tiago-oliveira/Files/FEUP/Prog/Projeto /media/tiago-oliveira/Files/FEUP/Prog/Projeto /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build /media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/tester.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tester.dir/depend
 

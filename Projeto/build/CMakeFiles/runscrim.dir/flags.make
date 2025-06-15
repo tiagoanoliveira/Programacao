@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/media/tiago-oliveira/Files/FEUP/Prog/project_programacao/include
+CXX_INCLUDES = -I/media/tiago-oliveira/Files/FEUP/Prog/Projeto/include
 
 CXX_FLAGS =  -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17 
 
