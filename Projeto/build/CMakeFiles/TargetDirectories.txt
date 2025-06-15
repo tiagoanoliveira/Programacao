@@ -1,5 +1,0 @@
-/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/runscrim.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/tester.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/delivery.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/edit_cache.dir
-/media/tiago-oliveira/Files/FEUP/Prog/Projeto/build/CMakeFiles/rebuild_cache.dir
