@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(exercises)
+project(mt1_model)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined")
@@ -18,8 +18,10 @@ link_libraries(m)
 
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
-add_executable(count-words P07_1/count-words.cpp)
-add_executable(wc P07_2/wc.cpp)
-add_executable(normalise P07_3/normalise.cpp)
-add_executable(maximum P07_4/maximum.cpp)
-add_executable(median P07_5/median-values.cpp)
+
+# You can uncomment the executables below as you progress
+add_executable(word_count word_count.cpp)
+add_executable(Airport Airport.cpp)
+#add_executable(floatable floatable.cpp)
+add_executable(print_grades print_grades.cpp)
+add_executable(Hanoi Hanoi.cpp)

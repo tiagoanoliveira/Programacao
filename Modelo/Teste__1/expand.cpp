@@ -1,7 +1,7 @@
 //
 // Created by tiago-oliveira on 17-03-2025.
 //
-#include "print_array.h"
+#include "../print_array.h"
 #include <iostream>
 int expand(const int c[], const int v[], int n, int res[], int max) {
     int times = 0;

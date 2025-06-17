@@ -6,23 +6,13 @@
 #include <iostream>
 #include <iomanip>
 
-/**
- * Translada este ponto pelas coordenadas do ponto fornecido
- * @param t Coordenadas de translação
- */
+
 void Point2d::translate(const Point2d& t) {
-    // Adiciona as coordenadas x e y do ponto t às coordenadas deste ponto
     this->x += t.x;
     this->y += t.y;
 }
 
-/**
- * Calcula a distância euclidiana entre este ponto e o ponto fornecido
- * @param p Ponto para calcular a distância
- * @return A distância euclidiana entre os dois pontos
- */
 double Point2d::distance_to(const Point2d& p) const {
-    // Calcula a distância euclidiana usando a fórmula: sqrt((x1-x2)² + (y1-y2)²)
     double dx = this->x - p.x;
     double dy = this->y - p.y;
     return sqrt(dx*dx + dy*dy);

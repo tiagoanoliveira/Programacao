@@ -4,44 +4,42 @@
 #include "Date1.h"
 using namespace std;
 
-Date::Date() : year(1), month(1), day(1) {
+Date::Date() {
+    year=1;
+    month=1;
+    day=1;
 }
-
-Date::Date(int year, int month, int day) : year(year), month(month), day(day) {
+Date::Date(int year, int month, int day) {
+    this->year=year;
+    this->month=month;
+    this->day=day;
 }
 
 int Date::get_year() const {
     return year;
 }
 
-// Accessor for month
-int Date::get_month() const {
-    return month;
-}
-
-// Accessor for day
 int Date::get_day() const {
     return day;
 }
 
-// Non-member function to check if date1 is before date2
+int Date::get_month() const {
+    return month;
+}
+
+
+
 bool is_before(const Date& date1, const Date& date2) {
-    // Compare years first
-    if (date1.get_year() < date2.get_year()) {
-        return true;
-    } else if (date1.get_year() > date2.get_year()) {
-        return false;
+    if (date1.get_year()<date2.get_year()) return true;
+    if (date1.get_year()>date2.get_year()) return false;
+    if (date1.get_year()==date2.get_year()) {
+        if (date1.get_month()<date2.get_month()) return true;
+        if (date1.get_month()>date2.get_month()) return false;
+        if (date1.get_month()==date2.get_month()) {
+            if (date1.get_day()<date2.get_day()) return true;
+        }
     }
-
-    // Years are equal, compare months
-    if (date1.get_month() < date2.get_month()) {
-        return true;
-    } else if (date1.get_month() > date2.get_month()) {
-        return false;
-    }
-
-    // Years and months are equal, compare days
-    return (date1.get_day() < date2.get_day());
+    return false;
 }
 
 int main () {

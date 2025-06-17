@@ -2,6 +2,7 @@
 // Created by tiago-oliveira on 22-04-2025.
 //
 
+#include <iostream>
 using namespace std;
 
 class Fraction {
@@ -47,8 +48,30 @@ Fraction Fraction::div(const Fraction &right) {
     return Fraction(num, denom);
 }
 
+int Fraction::gcd(int a, int b) {
+    while (b != 0) {
+        int tmp = a;
+        a = b;
+        b = tmp % b;
+    }
+    return a;
+}
 
-#include "fraction_aux.h"
+//! Normalize a fraction.
+void Fraction::normalise() {
+    int g = gcd(numerator_, denominator_);
+    numerator_ /= g;
+    denominator_ /= g;
+    if (denominator_ < 0) {
+        numerator_ = - numerator_;
+        denominator_ = - denominator_;
+    }
+}
+
+// shows fraction on the screen
+void Fraction::write() const {
+    cout << numerator_ << '/' << denominator_;
+}
 
 int main () {
     { Fraction().sum({2, 4}).write(); std::cout << ' ';

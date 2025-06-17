@@ -18,3 +18,5 @@ link_libraries(m)
 
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
+add_executable(color P09_1/Color.cpp)
+add_executable(p2_main P09_2/Date.cpp P09_2/Person.cpp P09_2/p2_main.cpp)
